@@ -10,5 +10,5 @@
   npm run watch
 ```
 
-<video src="video/read-me-clip.mp4" muted="" loop="" autoplay=""></video>
+<video src="https://masaya-aku-nakilala-ka.netlify.app/video/summer.mp4" muted="" loop="" autoplay=""></video>
 
