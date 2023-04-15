@@ -10,5 +10,4 @@
   npm run watch
 ```
 
-<video src="https://masaya-aku-nakilala-ka.netlify.app/video/summer.mp4" muted="" loop="" autoplay=""></video>
-
+<img src="image/main-page.png" alt="Girl in a jacket" width="100%" height="100%">
