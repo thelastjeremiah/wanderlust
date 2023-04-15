@@ -2764,14 +2764,6 @@ html {
   padding: 6rem;
 }
 
-.p-0{
-  padding: 0px;
-}
-
-.p-5{
-  padding: 1.25rem;
-}
-
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -2791,18 +2783,13 @@ html {
   line-height: 2.5rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl{
   font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -2881,21 +2868,8 @@ html {
     background-color: #03a9f426;
   }
 
-  .md\:p-0{
-    padding: 0px;
-  }
-
-  .md\:p-24{
-    padding: 6rem;
-  }
-
   .md\:pt-44{
     padding-top: 11rem;
-  }
-
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-5xl{
