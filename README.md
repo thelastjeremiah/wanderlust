@@ -10,4 +10,4 @@
   npm run watch
 ```
 
-<img src="image/main-page.png" alt="" width="100%" height="100%">
+<img src="image/main-page.png" width="100%" height="100%">
