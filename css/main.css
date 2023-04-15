@@ -2647,40 +2647,6 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
-.container{
-  width: 100%;
-}
-
-@media (min-width: 640px){
-  .container{
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px){
-  .container{
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px){
-  .container{
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px){
-  .container{
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px){
-  .container{
-    max-width: 1536px;
-  }
-}
-
 .absolute{
   position: absolute;
 }
@@ -2785,10 +2751,6 @@ html {
   background-color: #1516168a;
 }
 
-.bg-main-cover{
-  background-color: #03a9f426;
-}
-
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -2800,6 +2762,14 @@ html {
 
 .p-24{
   padding: 6rem;
+}
+
+.p-0{
+  padding: 0px;
+}
+
+.p-5{
+  padding: 1.25rem;
 }
 
 .py-10{
@@ -2828,6 +2798,11 @@ html {
 
 .text-xl{
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -2906,11 +2881,25 @@ html {
     background-color: #03a9f426;
   }
 
-  .md\:bg-main-cover-mobile{
-    background-color: #1516168a;
+  .md\:p-0{
+    padding: 0px;
+  }
+
+  .md\:p-24{
+    padding: 6rem;
   }
 
   .md\:pt-44{
     padding-top: 11rem;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 }
