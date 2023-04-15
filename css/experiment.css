@@ -1,0 +1,30 @@
+/* Body background color */
+body {
+    background-color: #E9EBEE;
+  }
+  
+  /* Dark blue background */
+  .bg-dark-blue {
+    background-color: #3B5998;
+  }
+  
+  /* Light blue text color */
+  .text-light-blue {
+    color: #8B9DC3;
+  }
+  
+  /* Light gray border color */
+  .border-light-gray {
+    border-color: #E9EBEE;
+  }
+  
+  /* White text color */
+  .text-white {
+    color: #D44638;
+  }
+  
+  /* Black text color */
+  .text-black {
+    color: #000000;
+  }
+  
