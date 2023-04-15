@@ -6,16 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailwind Template Example</title>
   <link rel="stylesheet" href="../css/main.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
 </head>
 <body>
+  <!-- =============== main container ===============-->
   <section class="absolute right-0 w-full min-h-screen p-24 flex justify-between items-center bg-gray-900 transition-all duration-500 z-20">
+    <!-- =============== logo main container ===============-->
+    
     <header class="absolute top-0 left-0 w-full p-10 py-10 z-50 flex justify-between items-center">
+      <!-- =============== logo text ===============-->
       <h2 class="text-white uppercase cursor-pointer block text-3xl font-bold">Travel</h2>
+      <!-- =============== logo text ===============-->
     </header>
-    <video src="../video/home-video.mp4" muted="" loop="" autoplay="" class="overflow-clip absolute top-0 left-0 w-full h-full object-cover opacity-80"></video>
-    <div class="absolute top-0 left-0 w-full h-full"></div>
+
+    <!-- =============== video bg ===============-->
+    <video src="../video/main-video.mp4" muted="" loop="" autoplay="" class="overflow-clip absolute top-0 left-0 w-full h-full object-cover opacity-80"></video>
+    <!-- =============== video bg ===============-->
+
+    <!-- <div class="absolute top-0 left-0 w-full h-full"></div> -->
+
+    <!-- =============== texts ===============-->
+    <div class="relative z-50">
+      
+
+      <div class="grid grid-cols-1 gap-x-2 md:grid-cols-2">
+        
+        <div class="block">
+          <span class="text-white uppercase block text-5xl font-bold">Never Stop To</span>
+          <span class="text-white uppercase block text-5xl font-bold">Exploring The World</span>
+          <p class="text-xl text-white my-5 font-normal">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+        </div>
+        
+        <div class="block">
+          <div class="flex justify-end">
+            <div class="flex flex-col space-y-4">
+              <i class="fab fa-github text-4xl text-white"></i> 
+              <i class="fab fa-instagram text-4xl text-white"></i>
+              <i class="fas fa-envelope text-4xl text-white"></i>
+              <i class="fab fa-facebook text-4xl text-white"></i>
+            </div>
+          </div>
+          
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    <!-- =============== texts ===============-->
+
   </section>
+  <!-- =============== main container ===============-->
 </body>
 </html>
