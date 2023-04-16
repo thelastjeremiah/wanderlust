@@ -1,4 +1,4 @@
-<p>A minimalist vacation page has been designed to showcase my expertise in utilizing the Tailwind CSS framework.</p>
+<p>A minimalist vacation page that is designed to showcase my expertise in utilizing the Tailwind CSS framework.</p>
 
 ```How to Run```
 
